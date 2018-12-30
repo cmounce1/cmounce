@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="robots" content="noindex,nofollow">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  		<meta name="author" content="Chris Mounce">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="icon" href="img/favicon.ico">
+		<title>Chris Mounce | Front-end Developer</title>
+		<style type="text/css">
+		* {
+				padding: 0;
+				margin: 0;
+		}
+		html{
+				scroll-behavior: smooth;
+		}
+		body {
+				margin-bottom: 1em;
+		    font-family: 'Lato';
+				font-size: .9rem;
+		    background-color: #fff;
+		}
+		h1{
+				font-family: 'Playfair Display', serif;
+				font-size: 1.7rem;
+				color:#000;
+				font-weight: normal;
+		}
+		h2{
+				font-family: 'Playfair Display', serif;
+				font-size: 1.2rem;
+				color:#000;
+				font-weight: normal;
+				display: block;
+				position: relative;
+		}
+		a:link{
+				text-decoration: none;
+		}
+		a:visited{
+				color:#000;
+		}
+		a:link{
+			font-weight:800;
+			color:#000;
+		}
+		.line{
+				border-bottom: solid 2px #88FFD1;
+				width:50%;
+				max-width: 200px;
+				margin: 5px 0;
+		}
+		.main-wrap{
+				width:85%;
+				margin: auto;
+		}
+		.type-bold{
+				font-weight:600;
+		}
+		.nav-list{
+				list-style-type: none;
+				text-align: right;
+				margin:10px 0;
+		}
+		.nav-list-item{
+				display: inline;
+				padding: 2px 5px;
+		}
+		.header{
+				margin: 100px 0;
+		}
+		.flx-cont{
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+
+				-webkit-flex-flow: row wrap;
+				flex-flow: row wrap;
+
+				justify-content: space-between;
+		}
+		.flx-item{
+				width: 350px;
+				margin: 20px 0;
+		}
+		.feat-projects-img{
+				display: block;
+				width:100%;
+				height:auto;
+		}
+		.feat-projects-content h2{
+				padding: .5em 0 0 0;
+		}
+		.work-xp, .uni-xp, .contact{
+				margin: 2em 0;
+		}
+		.work-xp h1, .uni-xp h1{
+				padding-left: 7.5%;
+				padding-right:7.5%;
+		}
+		.work-list, .uni-list{
+				margin: 1em 0;
+		}
+		.work-item, .uni-item{
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-flex-flow: row wrap;
+				flex-flow: row wrap;
+				padding: 20px 0;
+				border-bottom: solid 1px #eee;
+				padding-left: 7.5%;
+				padding-right:7.5%;
+		}
+		.work-item:hover, .uni-item:hover{
+				background-color: #88FFD1;
+				transition: .15s ease-in;
+		}
+		.workplace, .university{
+				flex: 3 1 100%;
+	}
+		.work-title, .degree-title{
+				flex: 1 1 100%;
+	}
+		.work-location, .uni-location{
+				flex: 1 1 100%;
+	}
+		.work-year, .uni-year{
+				flex: 1 1 100%;
+	}
+		.contact h1{
+				padding: 0 0 1em 0;
+		}
+
+
+		@media only screen and (min-width:960px){
+			h1{
+				font-size: 3rem;
+			}
+			.nav-list-item{
+				padding: 2px 35px;
+			}
+			.flx-item{
+					width: 32%;
+			}
+			.workplace, .university{
+				flex: 3 1 100%;
+		}
+			.work-title, .degree-title{
+				flex: 1 1 40%;
+		}
+			.work-location, .uni-location{
+				flex: 1 1 30%;
+		}
+			.work-year, .uni-year{
+				flex: 1 1 30%;
+				align-self: flex-end;
+				text-align: right;
+		}
+		.contact h1{
+				padding: 0 0 .25em 0;
+		}
+		}
+		</style>
+	</head>
+	<body>
+		<div class="main-wrap">
+			<nav class="nav">
+				<ul class="nav-list">
+					<!-- <li class="nav-list-item"><a href="">Home</a></li>
+					<li class="nav-list-item"><a href="#projects">Projects</a></li> -->
+					<li class="nav-list-item"><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="header">
+				<h1>Hi, I’m <span class="type-bold">Chris Mounce,</span> a front-end developer and designer currently working for Rocky Brands.</h1>
+			</div>
+			<div id="#projects" class="feat-projects">
+				<h1>Recent Projects</h1>
+				<div class="flx-cont">
+					<div class="flx-item">
+						<img class="feat-projects-img" src="iPhone X_MockUp.jpg" alt="">
+						<div class="feat-projects-content">
+							<h2>Email Marketing Campaigns</h2>
+							<div class="line"></div>
+							<p>Design & development of various promotional emails for the Georgia Boot brand.</p>
+						</div>
+					</div>
+					<div class="flx-item">
+						<img class="feat-projects-img" src="gb-mac-mock.jpg" alt="">
+						<div class="feat-projects-content">
+							<h2>Georgia Boot E-Commerce Design</h2>
+							<div class="line"></div>
+							<p>Complete UI & UX design of the Georgia Boot e-commerce website. Projected development and implementation is 2019.</p>
+						</div>
+					</div>
+					<div class="flx-item">
+						<img class="feat-projects-img" src="iPhoneX_Mock_up.jpg" alt="">
+						<div class="feat-projects-content">
+							<h2>Georgia Crew Loyalty App Design</h2>
+							<div class="line"></div>
+							<p>Proposed mobile app used for managing user account rewards and preferences for Georgia Boot.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div><!-- Close Wrap -->
+	<div class="work-xp">
+		<h1>Work Experience</h1>
+		<ul class="work-list">
+			<li class="work-item">
+				<h2 class="workplace">Rocky Brands<div class="line"></div></h2>
+				<span class="work-title">Front-End Developer</span>
+				<span class="work-location">Nelsonville, OH</span>
+				<span class="work-year">Current</span>
+			</li>
+			<li class="work-item">
+				<h2 class="workplace">Skoda Minotti Strategic Marketing<div class="line"></div></h2>
+				<span class="work-title">Web Developer / Graphic Designer</span>
+				<span class="work-location">Cleveland, OH</span>
+				<span class="work-year">2017</span>
+			</li>
+			<li class="work-item">
+				<h2 class="workplace">Bowling Green Flight Center<div class="line"></div></h2>
+				<span class="work-title">Marketing Associate</span>
+				<span class="work-location">Bowling Green, OH</span>
+				<span class="work-year">2016</span>
+			</li>
+			<li class="work-item">
+				<h2 class="workplace">Therma-Tru Doors<div class="line"></div></h2>
+				<span class="work-title">Graphic Design Intern</span>
+				<span class="work-location">Maumee, OH</span>
+				<span class="work-year">2015</span>
+			</li>
+		</ul>
+	</div>
+	<div class="uni-xp">
+		<h1>Education</h1>
+		<ul class="uni-list">
+			<li class="uni-item">
+				<h2 class="university">Bowling Green State University<div class="line"></div></h2>
+				<span class="degree-title">B.S. in Technology; Visual Communication Technology</span>
+				<span class="uni-location">Bowling Green, OH</span>
+				<span class="uni-year">2016</span>
+			</li>
+		</ul>
+	</div>
+	<div class="main-wrap">
+		<div id="contact" class="contact">
+			<h1>Contact Me</h1>
+			<div class="contact-info">
+				<p>Contact me by sending an email to <a href="mailto:cmounce1@gmail.com">cmounce1@gmail.com</a> or message me on <a href="linkedin.com">LinkedIn.</a><p>
+			</div>
+		</div>
+	</div>
+	<!-- Google Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', ' UA-122540016-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+	</body>
+</html>
