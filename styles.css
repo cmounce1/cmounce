@@ -77,7 +77,9 @@ a:link{
   border-width: 350px 1500px 0px 0;
   border-color: transparent #88FFD1 transparent transparent;
 }
-
+.highlight {
+  border-bottom: solid 3px #88FFD1;
+}
 .flx-cont{
   display: -webkit-box;
   display: -moz-box;
